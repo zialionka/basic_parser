@@ -1,0 +1,410 @@
+target: 150
+user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+request:
+  timeout_seconds: 20
+  retries: 3
+  backoff_seconds: 1.0
+  jitter_seconds: 0.3
+
+filters:
+  role_keywords:
+    - qa
+    - quality assurance
+    - quality engineer
+    - software quality engineer
+    - qa analyst
+    - qa automation engineer
+    - quality assurance engineer
+    - software test engineer
+    - software tester
+    - test analyst
+    - test engineer
+    - test automation engineer
+    - automation engineer
+    - automation test engineer
+    - quality automation engineer
+    - software development engineer in test
+    - software development engineer in test sdet
+    - sdet
+    - senior sdet
+    - lead sdet
+    - principal sdet
+    - test architect
+    - qa lead
+    - qa manager
+    - test lead
+    - test manager
+    - quality lead
+    - quality manager
+    - validation engineer
+    - verification engineer
+    - reliability test engineer
+    - performance test engineer
+    - performance engineer
+    - api test engineer
+    - mobile test engineer
+    - security test engineer
+    - release validation engineer
+    - software engineer in test
+    - software engineer test
+    - product quality engineer
+    - customer quality engineer
+    - manufacturing quality engineer
+    - quality systems engineer
+    - quality specialist
+    - quality control
+    - qc engineer
+    - qc analyst
+    - qa consultant
+    - qa specialist
+    - qa technician
+    - software qa analyst
+    - software qa engineer
+    - quality assurance analyst
+    - quality assurance specialist
+    - quality assurance tester
+    - quality verification engineer
+    - testing specialist
+    - testing engineer
+    - software testing analyst
+    - software quality analyst
+    - automated testing engineer
+    - manual qa engineer
+    - manual tester
+    - automation qa engineer
+    - automation qa analyst
+    - qa test automation
+    - test automation analyst
+    - test automation lead
+    - software validation engineer
+    - software verification engineer
+    - quality validation engineer
+    - quality verification analyst
+    - release test engineer
+    - pre production test engineer
+    - integration test engineer
+    - system test engineer
+    - end to end test engineer
+    - e2e test engineer
+    - user acceptance test analyst
+    - uat analyst
+    - platform quality engineer
+    - cloud qa engineer
+    - backend qa engineer
+    - frontend qa engineer
+    - web qa engineer
+    - mobile qa engineer
+    - ios qa engineer
+    - android qa engineer
+    - game qa tester
+    - embedded test engineer
+    - firmware test engineer
+    - hardware test engineer
+    - reliability engineer
+    - release engineer
+    - build and release engineer
+    - quality program manager
+    - quality operations engineer
+    - test operations engineer
+    - software certification engineer
+    - compliance test engineer
+    - accessibility test engineer
+    - localization qa tester
+    - data qa engineer
+    - data quality engineer
+    - data quality analyst
+    - etl test engineer
+    - bi test engineer
+    - analytics qa engineer
+    - ml test engineer
+    - ai quality engineer
+    - nlp test engineer
+    - site reliability qa engineer
+    - devops test engineer
+    - observability engineer
+    - chaos testing engineer
+    - penetration test engineer
+    - security qa engineer
+    - software integrity engineer
+    - production support qa engineer
+    - customer support engineer qa
+    - technical qa lead
+    - senior quality engineer
+    - principal quality engineer
+    - staff quality engineer
+    - senior test engineer
+    - principal test engineer
+    - staff test engineer
+    - software engineer quality
+    - software development test engineer
+    - sdet ii
+    - sdet iii
+    - sr sdet
+    - test consultant
+    - qa program manager
+    - quality owner
+    - quality champion
+    - test
+    - testing
+    - automation
+  qa_keywords:
+    - qa
+    - quality assurance
+    - sdet
+    - test
+    - testing
+    - automation
+  stack_keywords:
+    - python
+    - java
+    - javascript
+    - typescript
+    - c#
+    - c++
+    - go
+    - ruby
+    - kotlin
+    - swift
+    - sql
+    - postgresql
+    - mysql
+    - mongodb
+    - playwright
+    - cypress
+    - selenium
+    - webdriverio
+    - appium
+    - robot framework
+    - cucumber
+    - bdd
+    - gherkin
+    - testng
+    - junit
+    - api
+    - rest api
+    - graphql
+    - postman
+    - insomnia
+    - soapui
+    - karate
+    - pact
+    - contract testing
+    - ci/cd
+    - jenkins
+    - github actions
+    - gitlab ci
+    - circleci
+    - azure devops
+    - teamcity
+    - bamboo
+    - docker
+    - kubernetes
+    - helm
+    - terraform
+    - ansible
+    - linux
+    - aws
+    - gcp
+    - azure
+    - datadog
+    - grafana
+    - prometheus
+    - pytest
+    - unittest
+    - tox
+    - allure
+    - playwright test
+    - selenium webdriver
+    - selenium grid
+    - browserstack
+    - saucelabs
+    - playwright python
+    - cypress io
+    - appium flutter
+    - appium xcuitest
+    - appium uiautomator
+    - espresso
+    - xcuitest
+    - xctest
+    - detox
+    - maestro
+    - k6
+    - jmeter
+    - gatling
+    - locust
+    - artillery
+    - wiremock
+    - mockserver
+    - testcontainers
+    - pytest bdd
+    - behave
+    - nose
+    - hypothesis
+    - hamcrest
+    - mocha
+    - jest
+    - chai
+    - nunit
+    - mstest
+    - xunit
+    - jest playwright
+    - puppeteer
+    - playwright java
+    - playwright typescript
+    - newman
+    - readyapi
+    - tricentis tosca
+    - qtest
+    - testrail
+    - zephyr
+    - xray
+    - jira
+    - confluence
+    - sonarqube
+    - snyk
+    - owasp zap
+    - burp suite
+    - splunk
+    - elasticsearch
+    - kibana
+    - logstash
+    - rabbitmq
+    - kafka
+    - redis
+    - sqlite
+    - oracle
+    - mssql
+    - snowflake
+    - bigquery
+    - dbt
+    - airflow
+    - spark
+    - pandas
+    - numpy
+    - fastapi
+    - flask testing
+    - django testing
+    - spring boot
+    - dotnet
+    - node
+    - npm
+    - yarn
+    - pnpm
+    - gradle
+    - maven
+    - makefile
+    - bash
+    - powershell
+    - github
+    - git
+    - bitbucket
+    - argo cd
+    - flux cd
+    - openshift
+    - rancher
+    - istio
+    - envoy
+    - cloudformation
+    - pulumi
+    - vault
+    - sentry
+    - new relic
+    - pagerduty
+    - opentelemetry
+    - honeycomb
+  remote_keywords:
+    - remote
+  us_keywords:
+    - united states
+    - usa
+    - us
+    - u.s.
+    - us only
+  unavailable_phrases:
+    - job is no longer available
+    - position has been filled
+    - no longer accepting applications
+    - this job has been removed
+    - job posting has expired
+    - 404 not found
+    - page not found
+    - this position has been closed
+    - this posting is no longer available
+  blocked_phrases:
+    - security check
+    - captcha
+    - verify you are a human
+    - access denied
+    - cloudflare ray id
+  closed_url_patterns:
+    - /404
+    - /not-found
+    - /job-not-found
+    - /positions/closed
+
+scoring:
+  base_qa: 2
+  stack_each: 1
+  us_bonus: 1
+
+sources:
+  builtin_max_pages: 60
+  themuse_max_pages: 260
+  arbeitnow_max_pages: 60
+
+boards:
+  greenhouse:
+    - greenhouse
+    - stripe
+    - reddit
+    - hubspot
+    - asana
+    - coursera
+    - intercom
+    - duolingo
+    - datadog
+    - plaid
+    - canva
+    - boxinc
+    - brex
+    - coinbase
+    - samsara
+    - rokt
+    - ripple
+    - mongodb
+    - tripactions
+    - discord
+    - zapier
+    - github
+    - flexport
+    - doordash
+    - webflow
+    - figma
+    - affirm
+    - okta
+    - hashicorp
+    - roblox
+    - opentable
+  lever:
+    - lever
+    - netflix
+    - airtable
+    - motive
+    - scaleai
+    - atlassian
+    - notion
+    - canva
+    - robinhood
+    - discord
+    - rippling
+    - plaid
+    - postman
+    - proton
+    - elastic
+    - segment
+    - unity
+    - coinbase
+    - medium
+    - reddit
+    - webflow
